@@ -1,0 +1,16 @@
+cd Desktop/projects
+mkdir flask_project
+cd flask_project
+
+git init
+
+poetry init
+//  follow steps 
+
+// to place venv in project and keep project self contained
+poetry config --local virtualenvs.in-project true
+
+poetry add package
+// now creates the venv, in project
+
+// continue...
